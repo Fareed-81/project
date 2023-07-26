@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+<body>
+         
+        <div class="contact">
+          <div class="content">
+            <!-- <h2>Get in touch </h2> -->
+            <div class="text-img">
+                <img src="imgs/gett.png"></img>
+              </div>
+            <p>contact with us when you get stuck on some where
+            </p>
+         </div>     
+            <div class="container">
+                <div class="contactInfo">
+                    <div class="box">
+                        <div class="icon"><i class="fa fa-map-marker"></i></div>
+                            <div class="text">
+                                <h3>Adress</h3>
+                                <p>Bhiwandi, Thane, Maharashtra</p>
+                            </div>
+                   </div>
+                   <div class="box">
+                        <div class="icon"><i class="fa fa-phone" ></i></div>
+                           <div class="text">
+                                <h3>Phone</h3>
+                                <p>91-987-654-4321</p>
+                          </div>
+                  </div>
+                  <div class="box">
+                        <div class="icon"> <i class="fa fa-envelope"></i></div>
+                            <div class="text">
+                                <h3>Email</h3>
+                                <p>autotown123@gmail.com</p>
+                           </div>
+                 </div>
+                 <div class="box">
+                    <div class="boxes">
+                    <h3>connect with us :</h3>
+                 <div class="box">
+                    <a href="https://www.instagram.com/"><div class="social-media"> <i class="fa fa-instagram"></i></div></a>
+                    <a href="https://www.facebook.com/"><div class="social-media"> <i class="fa fa-facebook" ></i></div></a>
+                    <a href="https://www.linkedin.com/"> <div class="social-media"><i class="fa fa-linkedin" ></i></div></a>
+                    <a href="https://twitter.com/login?lang=en"> <div class="social-media"> <i class="fa fa-twitter" ></i></div></a>
+                    </div>
+                    </div>
+                    </div>
+                   
+                 </div>
+                    
+              
+            <div class="contactform">
+
+             <form onsubmit="return validForm()">
+                <h2>send message</h2>
+                <div class="inputBox">
+                    <input type="text" id="name" name="name" required maxlength="10" minlength="4" autocomplete="off">
+                    <label for="">name</label>
+                    <span class="error">please enter your name</span>
+
+                </div>
+                <div class="inputBox">
+                    <input type="text" id="phone" name="phone" required pattern="(1-9)" maxlength="10" autocomplete="off" >
+                    <label for=""> phone no</label>
+                    <p class="error">please enter your phone number</p>
+                </div> 
+                <div class="inputBox">
+                    <input  type="email" id="email" name="email" required autocomplete="off" >
+                    <label for=""> email id</label>
+                    <p class="error">please enter your email id</p>
+                </div>
+                <div class="inputBox">
+                    <textarea type="text" id="message" required maxlength="50" minlength="10" name="message"></textarea>
+                    <label for=""> how can we help you?</label>
+                    <p class="error">please enter your message</p>
+                </div>
+                <div class="button">
+                    <input type="submit" id="send" value="Send">
+                </div>
+             </form>
+
+           
+                </div>
+
+                
+            </div>
+        </div>
+        
+   
+
+
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
